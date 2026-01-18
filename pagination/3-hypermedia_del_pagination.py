@@ -1,3 +1,8 @@
+#!/usr/bin/env python3
+"""
+Deletion-resilient hypermedia pagination
+"""
+
 from typing import Dict
 
 
@@ -25,3 +30,4 @@ def get_hyper_index(self, index: int = None, page_size: int = 10) -> Dict:
         "page_size": len(data),
         "data": data
     }
+
